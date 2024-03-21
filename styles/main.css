@@ -1,0 +1,465 @@
+body {
+    margin: 0;
+	width: auto;
+}
+
+.main-container {
+    width: 1100px;
+    height: 100vh;
+
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    grid-template-rows: 62px 3fr 1fr;
+    grid-template-areas: 
+        "a b c c"
+        "a b d e"
+        "a b d e"
+			;
+}
+
+.a {
+    grid-area: a;
+    background-color: #E3E5E8;
+}
+
+.b {
+    grid-area: b;
+    background-color: green;
+}
+
+.c {
+    grid-area: c;
+    background-color: orange;
+}
+.d {
+	grig-area: d;
+	
+}
+.e {
+	grid-area: e;
+	
+}
+
+.nav1 {
+	width: 72px;
+	height: 100vh;
+    padding-bottom: 170px;
+    padding-left: 5px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 7px;
+	
+}
+
+.discord-logo-icon {
+	width: 100%;
+	height: 51px;
+	padding-right: 13px;
+	margin-left: 12px;
+}
+.image-discord {
+	background-image: url("https://raw.githubusercontent.com/dvhlazov/discord-test1/main/discord-icon.png");
+	width: 48px;
+	height: 48px;
+	background-size: cover;
+}
+.image-discord:hover {
+	background-image: url("https://raw.githubusercontent.com/dvhlazov/discord-test1/main/discord-icon-hover.png");
+	cursor: pointer;
+}
+.image-discord-underline {
+	width: 80%;
+	height: 2px;
+	border-bottom: 2px solid #C2C3C8;
+	margin-left: 4px;
+	padding-top: 3px;
+}
+.ffe {
+	width: 100%;
+    	heigth: 48px;
+   	display: flex;
+    	justify-content: flex-start;
+	margin-right: 13px;
+
+	
+}
+
+.left-border {
+	width: 3px;
+	height: 40px;
+	border-left: 3px solid #000000;
+	border-radius: 12px;
+	margin-right: 8px;
+	margin-top: 4px;
+	
+	
+}
+.image-ffe {
+	background-image: url("https://raw.githubusercontent.com/dvhlazov/discord-test1/main/ffe-logo-icon.png");
+	width: 48px;
+	height: 48px;
+	background-size: cover;
+}
+.add {
+	background-image: url("https://raw.githubusercontent.com/dvhlazov/discord-test1/main/plus-icon.png");
+	width: 48px;
+	height: 48px;
+	background-size: cover;
+}
+.more {
+	background-image: url("https://raw.githubusercontent.com/dvhlazov/discord-test1/main/more.png");
+	width: 48px;
+	height: 48px;
+	background-size: cover;
+}
+.downloads {
+	background-image: url("https://raw.githubusercontent.com/dvhlazov/discord-test1/main/downloads.png");
+	width: 48px;
+	height: 48px;
+	background-size: cover;
+}
+
+.main {
+	width: 650px;
+	height: auto;
+	
+	
+	
+}
+.sidebar {
+	background-color: #F2F3F5;
+	width: 240px;
+	height: 100vh;
+}
+header {
+	width: 600px;
+	height: 48px;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	flex-wrap: no-wrap;
+	border-bottom: 1px solid #D0D0D2;
+	border-shadow: 10px;
+}
+.inner-container-header {
+	width: 208px;
+	height: 24px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.dropdown-icon {
+	background-image: url("https://raw.githubusercontent.com/dvhlazov/discord-test1/main/dropdown-ico.png");
+	width: 24px;
+	height: 18px;
+	background-size: cover;
+}
+.dropdown-icon:hover {
+	cursor: pointer;
+}
+.header-text {
+	padding-top: 3px;
+	width: 100%;
+	height: 24px;
+	font-weight: 700;
+}
+.events-container {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left: 10px;
+}
+.events-container > p {
+	font-weight: 600;
+	padding-left: 10px;
+}
+.sidebar-underline {
+	height: 1px;
+	width: 90%;
+	border-bottom: 1px solid #D0D0D2;
+	margin: 0 auto;
+}
+.info {
+	width: 100%;
+	height: auto;
+}
+.info-container {
+	width: 90%;
+	height: auto;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: no-wrap;
+}
+.dropdown-info-img {
+	background-image: url("https://raw.githubusercontent.com/dvhlazov/discord-test1/main/dropdown-info.png");
+	
+}
+.info-container > p {
+	padding-left: 1px;
+	display: inline-block;
+	font-size: 11px;
+}
+.info-container > img {
+	display: inline-block;
+}
+.common {
+	height: auto;
+	width: 90%;
+	display: flex;
+	align-items: center;
+	
+
+
+	
+}
+.common > p {
+	font-weight: 600;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	padding-left: 10px;
+	
+}
+p.hesh {
+	font-size: 24px;
+	font-weight: 600;
+	margin: 0;
+	padding: 0;
+	padding-left: 20px;
+	display: inline-block;
+}
+.graphic {
+	height: auto;
+	width: 90%;
+	display: flex;
+	align-items: center;
+	margin: auto auto;
+}
+.graphic > p {
+	font-weight: 600;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	padding-left: 10px;
+}
+.user-menu {
+	width: 100%;
+	height: 48px;
+	background-color: #EBEDEF;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-top: 165px;
+
+}
+.user-block {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.user-txt {
+	font-size: 12px;
+    	padding: 4px;
+   	
+}
+	
+.user-txt > p {
+	display: inline-block;
+	font-size: 11px;
+	
+	
+}
+.user-block > img {
+	display: inline-block;
+	padding: 0;
+	margin: ;
+}
+.icons-block-menu {
+	display: flex;
+	justify-content: flex-start;
+}
+.icons-block-menu > img {
+	display: inline-block;
+	margin:0;
+	padding:0;
+	padding-left: 10px;
+	
+}
+.user-name {
+	margin: 0;
+	padding: 0;
+}
+.user-status {
+	padding: 0;
+	margin: 0;
+}
+.icons-block-menu > img:nth-child(3) {
+	padding-right: 5px;
+}
+.icons-block-menu > img:hover {
+	cursor: pointer;
+}
+.header {
+	width: 1030px;
+	height: 48px;
+	background-color: #FFFFFF;
+	border-bottom: 1px solid gray;
+
+	
+	display: flex;
+	justify-content: space-between;
+}
+.header > p {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+.class-header-txt {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: auto;
+	flex-wrap: no-wrap;
+}
+.class-header-txt > p {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	
+}
+.class-header-txt > p:nth-child(1) {
+	font-size: 30px;
+	font-weight: 600;
+	padding-left: 10px;
+}
+.class-header-txt > p:nth-child(2) {
+	font-size: 20px;
+	font-weight: 600;
+	padding-left: 10px;
+}
+.search-field {
+	width: 140px;
+	height: 20px;
+	background-color: #D7D9DC;
+	border-radius: 4px;
+	display: flex;
+	flex-wrap: no-wrap;
+	justify-content: space-between;
+	font-size: 14px;
+}
+.search > p {
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	padding-left: 7px;
+	padding-top: 1px;
+}
+.righ-header-icons >a > img {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	padding-top: 8px;
+}
+.righ-header-icons {
+	display: flex;
+	justify-content: flex-end;
+	flex-wrap: no-wrap;
+	align-items: center;
+	width: 400px;
+	
+}
+.main-content {
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+       margin-top: -5px;
+       
+}
+.img-user-icon-main {
+	width :910px
+	height: 310px;
+	display: flex;
+	justify-content: flex-start;
+}
+.img-user-icon-main > a > img {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	padding-left: 10px;
+}
+.img-user-icon-main > a {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+.chat-in {
+	width: 595px;
+	height: 44px;
+	background-color: #EBEDEF;
+	border-radius: 8px;
+	display: flex;
+	align-items: center;
+        justify-content: space-between;
+	margin-left: 12px;
+        margin-top: 110px;
+	padding-left: 15px;
+	
+}
+.icon-input-left {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	
+}
+.icon-input-left > p {
+	display: inline-block;
+	margin: 0;
+}
+.icon-group-input-right {
+	margin-right: 15px;
+	
+}
+.nav2 {
+	width: 210px;
+	height: 516px;
+	
+
+}
+.sended-messege-data > a > img {
+	width: 550px;
+	height: 283px;
+}
+.online-users-nav2 {
+	width: 210px;
+	height: 300px;
+}
+
+.online-nav2 > img {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+}
+.user1 {
+	display: flex;
+	justify-content: flex-start;	
+	align-items: center;
+	flex-wrap: no-wrap;
+}
+.user1:hover {
+	background-color: #DFE1E5;
+	border-radius: 5px;
+	cursor: pointer;
+
+}
+.user1 > span {
+	padding-left: 10px;
+}
+.offline-nav2 {
+	opacity: 0.2;
+}
+	
